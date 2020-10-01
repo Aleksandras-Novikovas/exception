@@ -1,0 +1,19 @@
+{
+    "name": "exception",
+    "version": "1.0.0",
+    "description": "Error with cause",
+    "author": {
+        "name": "Aleksandras Novikovas",
+        "email": "Aleksandras.Novikovas@gmail.com",
+        "url": "http://www.systemtier.com/"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Aleksandras-Novikovas/exception.git"
+    },
+    "keywords": [
+        "error",
+        "exception"
+    ]
+}
