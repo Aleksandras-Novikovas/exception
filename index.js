@@ -2,6 +2,4 @@
 
 const Exception = require("./lib/Exception");
 
-module.exports = {
-    Exception: Exception
-};
+module.exports = Exception;

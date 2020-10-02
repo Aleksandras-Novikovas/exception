@@ -4,10 +4,11 @@
 
 - Class `Exception` is similar to java Exception class where you can pass cause error object to constructor.
 ```javascript
+    const Exception = require("exception");
     try {
         // some code
     } catch (err) {
-        throw new Exception ("Here is my exception with inner error", err);
+        throw new Exception("Here is my exception with inner error", err);
     }
 ```
 - This class has static method `Exception.errSerializer` which extracts data from provided Error object and returns a simple object ready for serialization.
